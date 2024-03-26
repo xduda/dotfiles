@@ -1,0 +1,30 @@
+theme = "gruvbox_dark_hard"
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+mode.normal = "NORMAL MODE"
+mode.insert = "INSERT MODE"
+mode.select = "SELECT MODE"
+
+[editor.whitespace.render]
+newline = "all"
+
+[editor.whitespace.characters]
+newline = "·"
+
+[keys.insert.j]
+j = "normal_mode" # Maps `jj` to exit insert mode
+k = "no_op"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
